@@ -85,8 +85,8 @@ export default function App() {
       )}
       <ImageModal
         isOpen={!!selectedImg}
-        onClose={() => setSelectedImg(null)}
-        image={selectedImg}
+        onRequestClose={() => setSelectedImg(null)}
+        img={selectedImg}
       />
         </>
     )

@@ -1,5 +1,5 @@
 .header {
-    padding: 10px 0 15px;
+    padding: 10px 0;
     background-color: #8e32e3;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
   .searchForm {
     position: relative;
     width: 100%;
-    max-width: 380px;
+    max-width: 360px;
     margin: 0 auto;
   }
   
